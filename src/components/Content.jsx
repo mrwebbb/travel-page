@@ -11,7 +11,7 @@ export default function Content(props){
                                 <img src="../loc-logo.png" alt="" className="loco-img" />
                                 <p><strong>{props.item.location}</strong></p>
                              </div>
-                             <a  href="">View on Google Maps</a>
+                             <a  href={props.item.googleMapsUrl}>View on Google Maps</a>
                         </div>
                        <h1>{props.item.title}</h1>
                        <p className="date"><strong>{props.item.startDate} - {props.item.endDate}</strong></p>

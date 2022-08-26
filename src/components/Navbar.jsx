@@ -5,7 +5,7 @@ export default function Navbar(){
         <nav className="nav--">
             <div className="container-nav">
                <img src="../tr-logo.jfif" alt="" />
-               <h3 className="title">my travel journal</h3>
+               <h3 className="title">MY TRAVEL JOURNAL</h3>
             </div>
         </nav>
     )
